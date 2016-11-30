@@ -94,8 +94,8 @@ import Foundation
         context?.saveGState()
         context?.draw(cgComposition!, in: imageRect)
 
-        for var x in 0...width {
-            for var y in 0...height {
+        for x in 0...width {
+            for y in 0...height {
                 let passes = comparePixel(x: x, y: y)
                 if !passes {
                     context?.setFillColor(red: 1, green: 0, blue: 0, alpha: 1)
@@ -139,8 +139,8 @@ import Foundation
         let highestY = min(height - 1, y + options.maxOffset)
 
         var result = false
-        for var currentX in lowestX...highestX {
-            for var currentY in lowestY...highestY {
+        for currentX in lowestX...highestX {
+            for currentY in lowestY...highestY {
                 if currentX == x || currentY == y {
                     continue
                 }

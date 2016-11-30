@@ -1,0 +1,705 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E9F6D8CCD8A864C442D59744F9F2A51 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1D7A31971498E67E52054F04E6ED20 /* ReplaceMe.swift */; };
+		2611A8C932D7680A4A808D03824F5B14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		2DD91FB9B0C17D20B7E417D1FCB45A16 /* Pods-rembrandt_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E07F4F80847AF1B2BDB80F769BB754C9 /* Pods-rembrandt_Example-dummy.m */; };
+		3946DA7DD3ADDFF66E10D9CA15016CB3 /* rembrandt-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 89CCDE2069BEA13F95616362A3434DDF /* rembrandt-dummy.m */; };
+		51DFB6ED80117DF8149A6EB4896368AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		861CD18EBC3C3B0ED93871B190320B7D /* Pods-rembrandt_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6946E7F17C97E9B6159AEBFC759C8B79 /* Pods-rembrandt_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90621D9976E486C6986202DC6AA9F64D /* Pods-rembrandt_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C57AE92A3BC4E1BBDCF8F336B8D1386 /* Pods-rembrandt_Tests-dummy.m */; };
+		CDAAA25A5ECAF5C8255E5B487881F385 /* Pods-rembrandt_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B7AF2783ECD4553C01A18E8EF3704EC /* Pods-rembrandt_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6E2E8B0705854963DC1E29A15A35195 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		FD94E379FCD86330D3A703ECB508F852 /* rembrandt-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CCE0E9EDCBD8F69AA8F7CFA4CCD4B4A /* rembrandt-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1886E2F6204EC9699322D046FFF87FD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35A104C90D2D4405056D45BAD68EB058;
+			remoteInfo = rembrandt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06E4523BE10DB975FBCF0404B57C4862 /* Pods-rembrandt_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-rembrandt_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0C1C3D4DB986417B1D99F4D59618B9EE /* Pods-rembrandt_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-rembrandt_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		0CCE0E9EDCBD8F69AA8F7CFA4CCD4B4A /* rembrandt-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "rembrandt-umbrella.h"; sourceTree = "<group>"; };
+		0FD787A620670D9F7AC46A17EF1ECEA6 /* Pods_rembrandt_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_rembrandt_Tests.framework; path = "Pods-rembrandt_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B7AF2783ECD4553C01A18E8EF3704EC /* Pods-rembrandt_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-rembrandt_Example-umbrella.h"; sourceTree = "<group>"; };
+		251F5D01777096D739DFDDC1F38DBD27 /* Pods-rembrandt_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-rembrandt_Example.release.xcconfig"; sourceTree = "<group>"; };
+		29F31C7A21066A6B0F1717A065116CB1 /* Pods-rembrandt_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-rembrandt_Tests-resources.sh"; sourceTree = "<group>"; };
+		2D172DB274848D2982E8C766E8290CFA /* Pods-rembrandt_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-rembrandt_Example-resources.sh"; sourceTree = "<group>"; };
+		3B94C6B00AA5EAB02C142A416A89ECC1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E2700A3AE63E368C22A802F8ABE5E4C /* rembrandt-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "rembrandt-prefix.pch"; sourceTree = "<group>"; };
+		6946E7F17C97E9B6159AEBFC759C8B79 /* Pods-rembrandt_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-rembrandt_Tests-umbrella.h"; sourceTree = "<group>"; };
+		6C57AE92A3BC4E1BBDCF8F336B8D1386 /* Pods-rembrandt_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-rembrandt_Tests-dummy.m"; sourceTree = "<group>"; };
+		792CFB54F44F2335DAA92BE96ABC4A7B /* Pods-rembrandt_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-rembrandt_Example.modulemap"; sourceTree = "<group>"; };
+		7C61FE90D6DAAC1306246855A54A211F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8477185D327B06F1B4F9630E6F595C18 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		864FCBD6AAFEB25E1006E86481D5F740 /* Pods-rembrandt_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-rembrandt_Example-frameworks.sh"; sourceTree = "<group>"; };
+		89CCDE2069BEA13F95616362A3434DDF /* rembrandt-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "rembrandt-dummy.m"; sourceTree = "<group>"; };
+		8B0358F2BF6FDC7FE834D4EDC0A843B6 /* Pods-rembrandt_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-rembrandt_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8CE0FB167019E59984ECCB718CB62833 /* Pods-rembrandt_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-rembrandt_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9170F193E930D961CB78352F4060535B /* Pods-rembrandt_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-rembrandt_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9185AF500C33C8AD11FB5DD0E94DA817 /* Pods-rembrandt_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-rembrandt_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98C1DECA2861B29AB626776EE429B0CA /* Pods-rembrandt_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-rembrandt_Tests.modulemap"; sourceTree = "<group>"; };
+		ADC575D4B5548F8AA36709276EE5DD85 /* Pods-rembrandt_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-rembrandt_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		B0986406D582B8C36EED3AE9C060EB97 /* Pods-rembrandt_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-rembrandt_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B9A6ED7D29E168E56A2D47229D8D181F /* rembrandt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = rembrandt.framework; path = rembrandt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9189E467707567EAFC90CCCC0B8D4DD /* Pods_rembrandt_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_rembrandt_Example.framework; path = "Pods-rembrandt_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D9B8E6210BEC6D9E76D8EBC0EEE1B109 /* rembrandt.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = rembrandt.modulemap; sourceTree = "<group>"; };
+		E07F4F80847AF1B2BDB80F769BB754C9 /* Pods-rembrandt_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-rembrandt_Example-dummy.m"; sourceTree = "<group>"; };
+		E6D04C53B73A436FAD2919F966D93150 /* rembrandt.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = rembrandt.xcconfig; sourceTree = "<group>"; };
+		FD1D7A31971498E67E52054F04E6ED20 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		51B305D33597CAB5E25FE4806A03F1C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51DFB6ED80117DF8149A6EB4896368AB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BB36322A20DA240C7FD98D79D6F2148 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2611A8C932D7680A4A808D03824F5B14 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AAC2EF18C638DF597CA79F0DA9BADDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6E2E8B0705854963DC1E29A15A35195 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5865B2EB6399272846663ECC18692713 /* rembrandt */ = {
+			isa = PBXGroup;
+			children = (
+				C62811B1E855C9CDD24BC7C14CBE8461 /* Classes */,
+			);
+			name = rembrandt;
+			path = rembrandt;
+			sourceTree = "<group>";
+		};
+		5B876B8B53EE8CFA9E08780CECFC9BC3 /* Pods-rembrandt_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8477185D327B06F1B4F9630E6F595C18 /* Info.plist */,
+				98C1DECA2861B29AB626776EE429B0CA /* Pods-rembrandt_Tests.modulemap */,
+				8CE0FB167019E59984ECCB718CB62833 /* Pods-rembrandt_Tests-acknowledgements.markdown */,
+				06E4523BE10DB975FBCF0404B57C4862 /* Pods-rembrandt_Tests-acknowledgements.plist */,
+				6C57AE92A3BC4E1BBDCF8F336B8D1386 /* Pods-rembrandt_Tests-dummy.m */,
+				ADC575D4B5548F8AA36709276EE5DD85 /* Pods-rembrandt_Tests-frameworks.sh */,
+				29F31C7A21066A6B0F1717A065116CB1 /* Pods-rembrandt_Tests-resources.sh */,
+				6946E7F17C97E9B6159AEBFC759C8B79 /* Pods-rembrandt_Tests-umbrella.h */,
+				9185AF500C33C8AD11FB5DD0E94DA817 /* Pods-rembrandt_Tests.debug.xcconfig */,
+				9170F193E930D961CB78352F4060535B /* Pods-rembrandt_Tests.release.xcconfig */,
+			);
+			name = "Pods-rembrandt_Tests";
+			path = "Target Support Files/Pods-rembrandt_Tests";
+			sourceTree = "<group>";
+		};
+		610A897941604BB17AF5F8799A949028 /* rembrandt */ = {
+			isa = PBXGroup;
+			children = (
+				5865B2EB6399272846663ECC18692713 /* rembrandt */,
+				F52110FDC9070895FCEFFC8BF1B228E7 /* Support Files */,
+			);
+			name = rembrandt;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				DB42DC1CDF16EF29D2148C65AD495009 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				F7270DA92D9779AC40AA7A3E9BE1671C /* Products */,
+				AE802A0FA10178CAEBC38E3C903FBEFD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		AE802A0FA10178CAEBC38E3C903FBEFD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C55EF0D55B727D48501EF54484F190A4 /* Pods-rembrandt_Example */,
+				5B876B8B53EE8CFA9E08780CECFC9BC3 /* Pods-rembrandt_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C55EF0D55B727D48501EF54484F190A4 /* Pods-rembrandt_Example */ = {
+			isa = PBXGroup;
+			children = (
+				7C61FE90D6DAAC1306246855A54A211F /* Info.plist */,
+				792CFB54F44F2335DAA92BE96ABC4A7B /* Pods-rembrandt_Example.modulemap */,
+				B0986406D582B8C36EED3AE9C060EB97 /* Pods-rembrandt_Example-acknowledgements.markdown */,
+				0C1C3D4DB986417B1D99F4D59618B9EE /* Pods-rembrandt_Example-acknowledgements.plist */,
+				E07F4F80847AF1B2BDB80F769BB754C9 /* Pods-rembrandt_Example-dummy.m */,
+				864FCBD6AAFEB25E1006E86481D5F740 /* Pods-rembrandt_Example-frameworks.sh */,
+				2D172DB274848D2982E8C766E8290CFA /* Pods-rembrandt_Example-resources.sh */,
+				1B7AF2783ECD4553C01A18E8EF3704EC /* Pods-rembrandt_Example-umbrella.h */,
+				8B0358F2BF6FDC7FE834D4EDC0A843B6 /* Pods-rembrandt_Example.debug.xcconfig */,
+				251F5D01777096D739DFDDC1F38DBD27 /* Pods-rembrandt_Example.release.xcconfig */,
+			);
+			name = "Pods-rembrandt_Example";
+			path = "Target Support Files/Pods-rembrandt_Example";
+			sourceTree = "<group>";
+		};
+		C62811B1E855C9CDD24BC7C14CBE8461 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FD1D7A31971498E67E52054F04E6ED20 /* ReplaceMe.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		DB42DC1CDF16EF29D2148C65AD495009 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				610A897941604BB17AF5F8799A949028 /* rembrandt */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F52110FDC9070895FCEFFC8BF1B228E7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B94C6B00AA5EAB02C142A416A89ECC1 /* Info.plist */,
+				D9B8E6210BEC6D9E76D8EBC0EEE1B109 /* rembrandt.modulemap */,
+				E6D04C53B73A436FAD2919F966D93150 /* rembrandt.xcconfig */,
+				89CCDE2069BEA13F95616362A3434DDF /* rembrandt-dummy.m */,
+				3E2700A3AE63E368C22A802F8ABE5E4C /* rembrandt-prefix.pch */,
+				0CCE0E9EDCBD8F69AA8F7CFA4CCD4B4A /* rembrandt-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/rembrandt";
+			sourceTree = "<group>";
+		};
+		F7270DA92D9779AC40AA7A3E9BE1671C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9189E467707567EAFC90CCCC0B8D4DD /* Pods_rembrandt_Example.framework */,
+				0FD787A620670D9F7AC46A17EF1ECEA6 /* Pods_rembrandt_Tests.framework */,
+				B9A6ED7D29E168E56A2D47229D8D181F /* rembrandt.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B4AF3E4381060E88D40B6294488F2660 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDAAA25A5ECAF5C8255E5B487881F385 /* Pods-rembrandt_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1A311CE6D75E8A94D79112CE5C3D8F5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD94E379FCD86330D3A703ECB508F852 /* rembrandt-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D136BBCBA57C7901498648580756699B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				861CD18EBC3C3B0ED93871B190320B7D /* Pods-rembrandt_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2E7C270FBA25BC850B6F93405A7A92CA /* Pods-rembrandt_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1632BCDC26649B88DF9E2E2AC41E50B5 /* Build configuration list for PBXNativeTarget "Pods-rembrandt_Example" */;
+			buildPhases = (
+				AB2A89216058AE0914E1EB802EB9C93D /* Sources */,
+				7AAC2EF18C638DF597CA79F0DA9BADDD /* Frameworks */,
+				B4AF3E4381060E88D40B6294488F2660 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C10BC236C50F1BB5439C98DC0028437E /* PBXTargetDependency */,
+			);
+			name = "Pods-rembrandt_Example";
+			productName = "Pods-rembrandt_Example";
+			productReference = C9189E467707567EAFC90CCCC0B8D4DD /* Pods_rembrandt_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		33C55F2E22AECABFC9A8E21EE68DA140 /* Pods-rembrandt_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 560AF15C6B242FE0481A9670A4758B09 /* Build configuration list for PBXNativeTarget "Pods-rembrandt_Tests" */;
+			buildPhases = (
+				B3A3D96AF569651DCF80FCC1442680C4 /* Sources */,
+				6BB36322A20DA240C7FD98D79D6F2148 /* Frameworks */,
+				D136BBCBA57C7901498648580756699B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-rembrandt_Tests";
+			productName = "Pods-rembrandt_Tests";
+			productReference = 0FD787A620670D9F7AC46A17EF1ECEA6 /* Pods_rembrandt_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		35A104C90D2D4405056D45BAD68EB058 /* rembrandt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F0AB41672BA1134BD58A43CD9290774 /* Build configuration list for PBXNativeTarget "rembrandt" */;
+			buildPhases = (
+				EADC8AC32FFB5822ACFECE118381878B /* Sources */,
+				51B305D33597CAB5E25FE4806A03F1C6 /* Frameworks */,
+				C1A311CE6D75E8A94D79112CE5C3D8F5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = rembrandt;
+			productName = rembrandt;
+			productReference = B9A6ED7D29E168E56A2D47229D8D181F /* rembrandt.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F7270DA92D9779AC40AA7A3E9BE1671C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E7C270FBA25BC850B6F93405A7A92CA /* Pods-rembrandt_Example */,
+				33C55F2E22AECABFC9A8E21EE68DA140 /* Pods-rembrandt_Tests */,
+				35A104C90D2D4405056D45BAD68EB058 /* rembrandt */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB2A89216058AE0914E1EB802EB9C93D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DD91FB9B0C17D20B7E417D1FCB45A16 /* Pods-rembrandt_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3A3D96AF569651DCF80FCC1442680C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90621D9976E486C6986202DC6AA9F64D /* Pods-rembrandt_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EADC8AC32FFB5822ACFECE118381878B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3946DA7DD3ADDFF66E10D9CA15016CB3 /* rembrandt-dummy.m in Sources */,
+				1E9F6D8CCD8A864C442D59744F9F2A51 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C10BC236C50F1BB5439C98DC0028437E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = rembrandt;
+			target = 35A104C90D2D4405056D45BAD68EB058 /* rembrandt */;
+			targetProxy = 1886E2F6204EC9699322D046FFF87FD0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1113B5617255F6BC4A6FDC8352AD21EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B0358F2BF6FDC7FE834D4EDC0A843B6 /* Pods-rembrandt_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-rembrandt_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-rembrandt_Example/Pods-rembrandt_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_rembrandt_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		669EA8897AB1F0E794002DE47B0D483D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6D04C53B73A436FAD2919F966D93150 /* rembrandt.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/rembrandt/rembrandt-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/rembrandt/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/rembrandt/rembrandt.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = rembrandt;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7076D6E78774DAB75EEBF556CA2CBB26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9185AF500C33C8AD11FB5DD0E94DA817 /* Pods-rembrandt_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-rembrandt_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-rembrandt_Tests/Pods-rembrandt_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_rembrandt_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		76BAA4C5C45365B7634392280EA8E0B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6D04C53B73A436FAD2919F966D93150 /* rembrandt.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/rembrandt/rembrandt-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/rembrandt/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/rembrandt/rembrandt.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = rembrandt;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F5C2F18D9C8511764A7AEBE4A5D5ABE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 251F5D01777096D739DFDDC1F38DBD27 /* Pods-rembrandt_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-rembrandt_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-rembrandt_Example/Pods-rembrandt_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_rembrandt_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F5E6D03A65D0647A44BAF45E5F93FA52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9170F193E930D961CB78352F4060535B /* Pods-rembrandt_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-rembrandt_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-rembrandt_Tests/Pods-rembrandt_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_rembrandt_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1632BCDC26649B88DF9E2E2AC41E50B5 /* Build configuration list for PBXNativeTarget "Pods-rembrandt_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1113B5617255F6BC4A6FDC8352AD21EE /* Debug */,
+				F5C2F18D9C8511764A7AEBE4A5D5ABE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F0AB41672BA1134BD58A43CD9290774 /* Build configuration list for PBXNativeTarget "rembrandt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				669EA8897AB1F0E794002DE47B0D483D /* Debug */,
+				76BAA4C5C45365B7634392280EA8E0B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		560AF15C6B242FE0481A9670A4758B09 /* Build configuration list for PBXNativeTarget "Pods-rembrandt_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7076D6E78774DAB75EEBF556CA2CBB26 /* Debug */,
+				F5E6D03A65D0647A44BAF45E5F93FA52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

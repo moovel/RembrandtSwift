@@ -1,0 +1,16 @@
+PODS:
+  - rembrandt (0.1.0)
+
+DEPENDENCIES:
+  - rembrandt (from `../`)
+
+EXTERNAL SOURCES:
+  rembrandt:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  rembrandt: 8c7a9600c6bec63b4c174ef0bf71d87039da0a68
+
+PODFILE CHECKSUM: 265188cfdc8b8ceb19b0867dc5992d0b7820da48
+
+COCOAPODS: 1.1.1

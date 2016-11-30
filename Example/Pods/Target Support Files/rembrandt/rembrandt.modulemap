@@ -1,0 +1,6 @@
+framework module rembrandt {
+  umbrella header "rembrandt-umbrella.h"
+
+  export *
+  module * { export * }
+}

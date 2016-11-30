@@ -1,29 +1,46 @@
-# rembrandt
+## About
 
-[![CI Status](http://img.shields.io/travis/Carsten Przyluczky/rembrandt.svg?style=flat)](https://travis-ci.org/Carsten Przyluczky/rembrandt)
-[![Version](https://img.shields.io/cocoapods/v/rembrandt.svg?style=flat)](http://cocoapods.org/pods/rembrandt)
-[![License](https://img.shields.io/cocoapods/l/rembrandt.svg?style=flat)](http://cocoapods.org/pods/rembrandt)
-[![Platform](https://img.shields.io/cocoapods/p/rembrandt.svg?style=flat)](http://cocoapods.org/pods/rembrandt)
+RembrandtSwift is an image comparison library for swift 3 with objective-C bindings, based on Rembrandt**JS** see http://rembrandtjs.com
 
-## Example
+### Installation
+#### Cocoapods
+Here's what you have to add to your Podfile:
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
-
-## Installation
-
-rembrandt is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod "rembrandt"
 ```
+use_frameworks!
 
-## Author
+pod 'rembrandt'
+```
+### Usage
+```swift
+let imageA = UIImage(named: "imageA")
+let imageB = UIImage(named: "imageB")
+let rembrandt = Rembrandt()
+let result = rembrandt.compare(imageA: imageA!, imageB: imageB!)
+```
+### License
+The MIT License (MIT)
+=====================
 
-Carsten Przyluczky, carsten.przyluczky@9elements.com
+Copyright © `2016` `imgly`
 
-## License
+Permission is hereby granted, free of charge, to any person
+obtaining a copy of this software and associated documentation
+files (the “Software”), to deal in the Software without
+restriction, including without limitation the rights to use,
+copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the
+Software is furnished to do so, subject to the following
+conditions:
 
-rembrandt is available under the MIT license. See the LICENSE file for more info.
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+OTHER DEALINGS IN THE SOFTWARE.

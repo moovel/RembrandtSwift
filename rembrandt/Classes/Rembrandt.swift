@@ -86,8 +86,8 @@ import Foundation
         var differences = 0
 
         // prepare composition
-        var composition = UIImage(color: UIColor.red, size: imageA.size)
-        var cgComposition = composition?.cgImage
+        let composition = UIImage(color: UIColor.red, size: imageA.size)
+        let cgComposition = composition?.cgImage
         let imageRect = CGRect(x: 0, y: 0, width: width, height: height)
         UIGraphicsBeginImageContext(imageA.size)
         let context = UIGraphicsGetCurrentContext()
@@ -138,8 +138,6 @@ import Foundation
         let lowestY = max(0, y - options.maxOffset)
         let highestY = min(height - 1, y + options.maxOffset)
 
-        var currentX = 0
-        var currentY = 0
         var result = false
         for var currentX in lowestX...highestX {
             for var currentY in lowestY...highestY {

@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 Rembrandt is an image library for swift 3 with objective-C bindings, based on RembrandtJS see http://rembrandtjs.com.
                        DESC
 
-  s.homepage         = 'https://github.com/imgly/rembrandtIOS'
+  s.homepage         = 'https://github.com/imgly/RembrandtSwift'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Carsten Przyluczky' => 'carsten.przyluczky@9elements.com' }
   s.source           = { :git => 'https://github.com/imgly/RembrandtSwift.git', :tag => s.version.to_s }

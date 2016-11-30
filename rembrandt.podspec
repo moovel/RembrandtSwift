@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'rembrandt'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of rembrandt.'
+  s.summary          = 'A lightweight image comparison lib.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,25 +18,16 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Rembrandt is an image library for swift 3 with objective-C bindings, based on RembrandtJS see http://rembrandtjs.com.
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/rembrandt'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/imgly/rembrandtIOS'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Carsten Przyluczky' => 'carsten.przyluczky@9elements.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/rembrandt.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/imgly/RembrandtSwift.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0.0'
 
   s.source_files = 'rembrandt/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'rembrandt' => ['rembrandt/Assets/*.png']
-  # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

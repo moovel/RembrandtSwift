@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'rembrandt_Example' do
+  pod 'rembrandt', :path => '../'
+
+  target 'rembrandt_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

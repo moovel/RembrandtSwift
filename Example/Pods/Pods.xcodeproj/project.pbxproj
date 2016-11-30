@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1E9F6D8CCD8A864C442D59744F9F2A51 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1D7A31971498E67E52054F04E6ED20 /* ReplaceMe.swift */; };
+		1E9F6D8CCD8A864C442D59744F9F2A51 /* Rembrandt.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1D7A31971498E67E52054F04E6ED20 /* Rembrandt.swift */; };
 		2611A8C932D7680A4A808D03824F5B14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		2DD91FB9B0C17D20B7E417D1FCB45A16 /* Pods-rembrandt_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E07F4F80847AF1B2BDB80F769BB754C9 /* Pods-rembrandt_Example-dummy.m */; };
 		3946DA7DD3ADDFF66E10D9CA15016CB3 /* rembrandt-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 89CCDE2069BEA13F95616362A3434DDF /* rembrandt-dummy.m */; };
@@ -33,7 +33,7 @@
 		06E4523BE10DB975FBCF0404B57C4862 /* Pods-rembrandt_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-rembrandt_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		0C1C3D4DB986417B1D99F4D59618B9EE /* Pods-rembrandt_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-rembrandt_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		0CCE0E9EDCBD8F69AA8F7CFA4CCD4B4A /* rembrandt-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "rembrandt-umbrella.h"; sourceTree = "<group>"; };
-		0FD787A620670D9F7AC46A17EF1ECEA6 /* Pods_rembrandt_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_rembrandt_Tests.framework; path = "Pods-rembrandt_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FD787A620670D9F7AC46A17EF1ECEA6 /* Pods_rembrandt_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rembrandt_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B7AF2783ECD4553C01A18E8EF3704EC /* Pods-rembrandt_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-rembrandt_Example-umbrella.h"; sourceTree = "<group>"; };
 		251F5D01777096D739DFDDC1F38DBD27 /* Pods-rembrandt_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-rembrandt_Example.release.xcconfig"; sourceTree = "<group>"; };
 		29F31C7A21066A6B0F1717A065116CB1 /* Pods-rembrandt_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-rembrandt_Tests-resources.sh"; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		3E2700A3AE63E368C22A802F8ABE5E4C /* rembrandt-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "rembrandt-prefix.pch"; sourceTree = "<group>"; };
 		6946E7F17C97E9B6159AEBFC759C8B79 /* Pods-rembrandt_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-rembrandt_Tests-umbrella.h"; sourceTree = "<group>"; };
 		6C57AE92A3BC4E1BBDCF8F336B8D1386 /* Pods-rembrandt_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-rembrandt_Tests-dummy.m"; sourceTree = "<group>"; };
-		792CFB54F44F2335DAA92BE96ABC4A7B /* Pods-rembrandt_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-rembrandt_Example.modulemap"; sourceTree = "<group>"; };
+		792CFB54F44F2335DAA92BE96ABC4A7B /* Pods-rembrandt_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-rembrandt_Example.modulemap"; sourceTree = "<group>"; };
 		7C61FE90D6DAAC1306246855A54A211F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8477185D327B06F1B4F9630E6F595C18 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		864FCBD6AAFEB25E1006E86481D5F740 /* Pods-rembrandt_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-rembrandt_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -51,17 +51,17 @@
 		8CE0FB167019E59984ECCB718CB62833 /* Pods-rembrandt_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-rembrandt_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9170F193E930D961CB78352F4060535B /* Pods-rembrandt_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-rembrandt_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9185AF500C33C8AD11FB5DD0E94DA817 /* Pods-rembrandt_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-rembrandt_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		98C1DECA2861B29AB626776EE429B0CA /* Pods-rembrandt_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-rembrandt_Tests.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98C1DECA2861B29AB626776EE429B0CA /* Pods-rembrandt_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-rembrandt_Tests.modulemap"; sourceTree = "<group>"; };
 		ADC575D4B5548F8AA36709276EE5DD85 /* Pods-rembrandt_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-rembrandt_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		B0986406D582B8C36EED3AE9C060EB97 /* Pods-rembrandt_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-rembrandt_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B9A6ED7D29E168E56A2D47229D8D181F /* rembrandt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = rembrandt.framework; path = rembrandt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C9189E467707567EAFC90CCCC0B8D4DD /* Pods_rembrandt_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_rembrandt_Example.framework; path = "Pods-rembrandt_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9A6ED7D29E168E56A2D47229D8D181F /* rembrandt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = rembrandt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9189E467707567EAFC90CCCC0B8D4DD /* Pods_rembrandt_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rembrandt_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D9B8E6210BEC6D9E76D8EBC0EEE1B109 /* rembrandt.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = rembrandt.modulemap; sourceTree = "<group>"; };
+		D9B8E6210BEC6D9E76D8EBC0EEE1B109 /* rembrandt.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = rembrandt.modulemap; sourceTree = "<group>"; };
 		E07F4F80847AF1B2BDB80F769BB754C9 /* Pods-rembrandt_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-rembrandt_Example-dummy.m"; sourceTree = "<group>"; };
 		E6D04C53B73A436FAD2919F966D93150 /* rembrandt.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = rembrandt.xcconfig; sourceTree = "<group>"; };
-		FD1D7A31971498E67E52054F04E6ED20 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		FD1D7A31971498E67E52054F04E6ED20 /* Rembrandt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Rembrandt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +97,6 @@
 			children = (
 				C62811B1E855C9CDD24BC7C14CBE8461 /* Classes */,
 			);
-			name = rembrandt;
 			path = rembrandt;
 			sourceTree = "<group>";
 		};
@@ -186,9 +185,8 @@
 		C62811B1E855C9CDD24BC7C14CBE8461 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				FD1D7A31971498E67E52054F04E6ED20 /* ReplaceMe.swift */,
+				FD1D7A31971498E67E52054F04E6ED20 /* Rembrandt.swift */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -314,6 +312,14 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					2E7C270FBA25BC850B6F93405A7A92CA = {
+						LastSwiftMigration = 0810;
+					};
+					35A104C90D2D4405056D45BAD68EB058 = {
+						LastSwiftMigration = 0810;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -356,7 +362,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3946DA7DD3ADDFF66E10D9CA15016CB3 /* rembrandt-dummy.m in Sources */,
-				1E9F6D8CCD8A864C442D59744F9F2A51 /* ReplaceMe.swift in Sources */,
+				1E9F6D8CCD8A864C442D59744F9F2A51 /* Rembrandt.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,6 +408,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -434,6 +441,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -500,6 +508,7 @@
 				PRODUCT_NAME = rembrandt;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -619,6 +628,7 @@
 				PRODUCT_NAME = Pods_rembrandt_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";

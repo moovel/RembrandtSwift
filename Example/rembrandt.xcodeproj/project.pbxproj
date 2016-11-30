@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09A2615B1DEF2E410050EC96 /* imageA.png in Resources */ = {isa = PBXBuildFile; fileRef = 09A261591DEF2E410050EC96 /* imageA.png */; };
+		09A2615C1DEF2E410050EC96 /* imageB.png in Resources */ = {isa = PBXBuildFile; fileRef = 09A2615A1DEF2E410050EC96 /* imageB.png */; };
 		504D409E91DA247FAF18493A /* Pods_rembrandt_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33ACE9F13A1AFECB41A1D88F /* Pods_rembrandt_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -29,7 +31,9 @@
 
 /* Begin PBXFileReference section */
 		075A314CBB3878D13BDEEBE5 /* Pods_rembrandt_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rembrandt_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		127A741B9FA2BA8D0974B70B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		09A261591DEF2E410050EC96 /* imageA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imageA.png; sourceTree = "<group>"; };
+		09A2615A1DEF2E410050EC96 /* imageB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imageB.png; sourceTree = "<group>"; };
+		127A741B9FA2BA8D0974B70B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		33ACE9F13A1AFECB41A1D88F /* Pods_rembrandt_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rembrandt_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* rembrandt_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rembrandt_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -41,8 +45,8 @@
 		607FACE51AFB9204008FA782 /* rembrandt_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rembrandt_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		917B847C77B754FF4D00E764 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		9AE7C20F6C9E560D362DFAC8 /* rembrandt.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = rembrandt.podspec; path = ../rembrandt.podspec; sourceTree = "<group>"; };
+		917B847C77B754FF4D00E764 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9AE7C20F6C9E560D362DFAC8 /* rembrandt.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = rembrandt.podspec; path = ../rembrandt.podspec; sourceTree = "<group>"; };
 		B36406A129954CA14D72AD00 /* Pods-rembrandt_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rembrandt_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-rembrandt_Tests/Pods-rembrandt_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C4193DBDC34192B4D87051A7 /* Pods-rembrandt_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rembrandt_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-rembrandt_Example/Pods-rembrandt_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CE60BEB88BC203E2A63F222E /* Pods-rembrandt_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rembrandt_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-rembrandt_Tests/Pods-rembrandt_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -93,6 +97,8 @@
 		607FACD21AFB9204008FA782 /* Example for rembrandt */ = {
 			isa = PBXGroup;
 			children = (
+				09A261591DEF2E410050EC96 /* imageA.png */,
+				09A2615A1DEF2E410050EC96 /* imageB.png */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -215,9 +221,11 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						LastSwiftMigration = 0810;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						LastSwiftMigration = 0810;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
@@ -247,6 +255,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				09A2615C1DEF2E410050EC96 /* imageB.png in Resources */,
+				09A2615B1DEF2E410050EC96 /* imageA.png in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
@@ -494,6 +504,7 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -507,6 +518,7 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -526,6 +538,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -541,6 +554,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

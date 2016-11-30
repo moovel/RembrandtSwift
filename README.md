@@ -1,9 +1,9 @@
-## About
+# About
 
 RembrandtSwift is an image comparison library for swift 3 with objective-C bindings, based on Rembrandt**JS** see http://rembrandtjs.com
 
-### Installation
-#### Cocoapods
+## Installation
+### CocoaPods
 Here's what you have to add to your Podfile:
 
 ```
@@ -14,16 +14,19 @@ target '<your product here>' do
 end
 
 ```
-### Usage
+## Usage
 ```swift
 let imageA = UIImage(named: "imageA")
 let imageB = UIImage(named: "imageB")
 let rembrandt = Rembrandt()
 let result = rembrandt.compare(imageA: imageA!, imageB: imageB!)
 ```
-### License
-The MIT License (MIT)
-=====================
+
+![](./result.png)
+
+## License
+
+### The MIT License (MIT)
 
 Copyright © `2016` `imgly`
 

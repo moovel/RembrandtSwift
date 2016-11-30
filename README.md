@@ -9,7 +9,10 @@ Here's what you have to add to your Podfile:
 ```
 use_frameworks!
 
-pod 'rembrandt'
+target '<your product here>' do
+  pod 'rembrandt', :path => '../'
+end
+
 ```
 ### Usage
 ```swift

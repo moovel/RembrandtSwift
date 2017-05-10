@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'rembrandt'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'A lightweight image comparison lib.'
 
 # This description is used to generate tags and improve search results.
@@ -26,7 +26,7 @@ Rembrandt is an image library for swift 3 with objective-C bindings, based on Re
   s.author           = { 'Carsten Przyluczky' => 'carsten.przyluczky@9elements.com' }
   s.source           = { :git => 'https://github.com/imgly/RembrandtSwift.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '10.0.0'
+  s.ios.deployment_target = '9.0.0'
 
   s.source_files = 'rembrandt/Classes/**/*'
 

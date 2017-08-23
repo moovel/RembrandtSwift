@@ -82,6 +82,8 @@ import UIKit
     ///   - imageB: An image.
     /// - Returns: A `RembrandtResult` instance.
     open func compare(imageA: UIImage, imageB: UIImage) -> RembrandtResult {
+        assert(imageA.size == imageB.size, "Image sizes must match for comparison using Rembrandt.")
+        
         width = Int(imageA.size.width)
         height = Int(imageA.size.height)
         colorDepthA = Int(imageA.cgImage!.bitsPerPixel / imageA.cgImage!.bitsPerComponent)

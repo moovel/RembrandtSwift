@@ -100,9 +100,9 @@ import UIKit
         let context = UIGraphicsGetCurrentContext()
         context?.saveGState()
         context?.draw(cgComposition!, in: imageRect)
-
-        for x in 0...width {
-            for y in 0...height {
+        
+        for x in 0 ... width - 1 {
+            for y in 0 ... height - 1 {
                 let passes = comparePixel(x: x, y: y)
                 if !passes {
                     context?.setFillColor(red: 1, green: 0, blue: 0, alpha: 1)

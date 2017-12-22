@@ -5,6 +5,7 @@
  */
 
 import Foundation
+import UIKit
 
 /// A `RembrandtResult` represents the result of an image comparison.
 @objc open class RembrandtResult: NSObject {

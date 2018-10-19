@@ -1,6 +1,6 @@
 # About
 
-RembrandtSwift is an image comparison library for swift 3 with objective-C bindings, based on Rembrandt**JS** see http://rembrandtjs.com. We created Rembrandt to have an easy-to-use image comparison library for our internal tests for [PhotoEditor SDK] (www.photoeditorsdk.com/?utm_campaign=Projects&utm_source=Github&utm_medium=Side_Projects&utm_content=Rembrandt&utm_term=iOS). 
+RembrandtSwift is an image comparison library for swift 3 with objective-C bindings, based on Rembrandt**JS** see http://rembrandtjs.com. We created Rembrandt to have an easy-to-use image comparison library for our internal tests for [PhotoEditor SDK](www.photoeditorsdk.com/?utm_campaign=Projects&utm_source=Github&utm_medium=Side_Projects&utm_content=Rembrandt&utm_term=iOS). 
 
 ## Installation
 ### CocoaPods

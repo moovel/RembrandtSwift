@@ -5,6 +5,7 @@
  */
 
 import Foundation
+import UIKit
 
 /// A `RembrandtResult` represents the result of an image comparison.
 @objc open class RembrandtResult: NSObject {
@@ -56,6 +57,8 @@ import Foundation
     private var options = RembrandtCompareOptions(maxDelta: 1, maxDifference: 0.01, maxOffset: 0)
     private var width = 0
     private var height = 0
+    private var colorDepthA: Int = 0
+    private var colorDepthB: Int = 0
     private var imageDataA: CFData?
     private var imageDataB: CFData?
 
@@ -79,10 +82,14 @@ import Foundation
     ///   - imageB: An image.
     /// - Returns: A `RembrandtResult` instance.
     open func compare(imageA: UIImage, imageB: UIImage) -> RembrandtResult {
+        assert(imageA.size == imageB.size, "Image sizes must match for comparison using Rembrandt.")
+        
         width = Int(imageA.size.width)
         height = Int(imageA.size.height)
-        self.imageDataA = getColorPointer(image: imageA)
-        self.imageDataB = getColorPointer(image: imageB)
+        colorDepthA = Int(imageA.cgImage!.bitsPerPixel / imageA.cgImage!.bitsPerComponent)
+        colorDepthB = Int(imageB.cgImage!.bitsPerPixel / imageB.cgImage!.bitsPerComponent)
+        imageDataA = getColorPointer(image: imageA)
+        imageDataB = getColorPointer(image: imageB)
         var differences = 0
 
         // prepare composition
@@ -93,9 +100,9 @@ import Foundation
         let context = UIGraphicsGetCurrentContext()
         context?.saveGState()
         context?.draw(cgComposition!, in: imageRect)
-
-        for x in 0...width {
-            for y in 0...height {
+        
+        for x in 0 ... width - 1 {
+            for y in 0 ... height - 1 {
                 let passes = comparePixel(x: x, y: y)
                 if !passes {
                     context?.setFillColor(red: 1, green: 0, blue: 0, alpha: 1)
@@ -122,8 +129,8 @@ import Foundation
         guard let imagePointerA = CFDataGetBytePtr(imageDataA), let imagePointerB = CFDataGetBytePtr(imageDataB) else {
             return false
         }
-        let colorA = getColorFrom(pointer: imagePointerA, x: x, y: y)
-        let colorB = getColorFrom(pointer: imagePointerB, x: x, y: y)
+        let colorA = getColorFrom(pointer: imagePointerA, x: x, y: y, colorDepth: colorDepthA)
+        let colorB = getColorFrom(pointer: imagePointerB, x: x, y: y, colorDepth: colorDepthB)
 
         let delta = calculateColorDelta(colorA: colorA, colorB: colorB)
         if delta < options.maxDelta {
@@ -145,14 +152,14 @@ import Foundation
                     continue
                 }
                 autoreleasepool {
-
-                    let newColorA = getColorFrom(pointer: imagePointerA, x: currentX, y: currentY)
+                    
+                    let newColorA = getColorFrom(pointer: imagePointerA, x: currentX, y: currentY, colorDepth: colorDepthA)
                     let newDeltaA = calculateColorDelta(colorA: colorA, colorB: newColorA)
-
-                    let newColorB = getColorFrom(pointer: imagePointerB, x: currentX, y: currentY)
+                    
+                    let newColorB = getColorFrom(pointer: imagePointerB, x: currentX, y: currentY, colorDepth: colorDepthB)
                     let newDeltaB = calculateColorDelta(colorA: colorA, colorB: newColorB)
-
-                    if ((abs(newDeltaB - newDeltaA) < options.maxDelta) && (newDeltaA > options.maxDelta)) {
+                    
+                    if (abs(newDeltaB - newDeltaA) < options.maxDelta) && (newDeltaA > options.maxDelta) {
                         result = true
                     }
                 }
@@ -176,17 +183,23 @@ import Foundation
         return image.cgImage!.dataProvider!.data
     }
 
-    func getColorFrom(pointer: UnsafePointer<UInt8>, x: Int, y: Int) -> UIColor {
+    func getColorFrom(pointer: UnsafePointer<UInt8>, x: Int, y: Int, colorDepth: Int) -> UIColor {
         let pos = CGPoint(x: x, y: y)
-
-        let pixelInfo: Int = ((Int(width) * Int(pos.y)) + Int(pos.x)) * 4
-
-        let r = CGFloat(pointer[pixelInfo]) / CGFloat(255.0)
-        let g = CGFloat(pointer[pixelInfo+1]) / CGFloat(255.0)
-        let b = CGFloat(pointer[pixelInfo+2]) / CGFloat(255.0)
-        let a = CGFloat(pointer[pixelInfo+3]) / CGFloat(255.0)
-
-        return UIColor(red: r, green: g, blue: b, alpha: a)
+        
+        let pixelInfo: Int = ((Int(width) * Int(pos.y)) + Int(pos.x)) * colorDepth
+        
+        if colorDepth == 4 {
+            let r = CGFloat(pointer[pixelInfo]) / CGFloat(255.0)
+            let g = CGFloat(pointer[pixelInfo + 1]) / CGFloat(255.0)
+            let b = CGFloat(pointer[pixelInfo + 2]) / CGFloat(255.0)
+            let a = CGFloat(pointer[pixelInfo + 3]) / CGFloat(255.0)
+            
+            return UIColor(red: r, green: g, blue: b, alpha: a)
+        } else if colorDepth == 1 {
+            return UIColor(white: CGFloat(pointer[pixelInfo]) / 255.0, alpha: 1.0)
+        }
+        
+        return UIColor.black
     }
 }
 

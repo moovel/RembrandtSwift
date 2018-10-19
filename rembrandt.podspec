@@ -28,6 +28,8 @@ Rembrandt is an image library for swift 3 with objective-C bindings, based on Re
 
   s.ios.deployment_target = '9.0.0'
 
+  s.framework = 'UIKit'
+
   s.source_files = 'rembrandt/Classes/**/*'
 
 end

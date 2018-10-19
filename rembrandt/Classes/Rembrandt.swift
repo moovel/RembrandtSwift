@@ -32,10 +32,10 @@ import UIKit
 
 /// This class holds the options for the compare method.
 @objc open class RembrandtCompareOptions: NSObject {
-    public internal(set) var maxDelta: Double
-    public internal(set) var maxDifference: Double
-    public internal(set) var maxOffset: Int
-    public internal(set) var renderComposition = false
+    public let maxDelta: Double
+    public let maxDifference: Double
+    public let maxOffset: Int
+    public let renderComposition: Bool
 
     /// Initializes a new options object.
     ///
@@ -45,10 +45,11 @@ import UIKit
     ///   - maxDifference: The maximal difference a pixels surrounding may have.
     ///   - maxOffset:  The maximal offset in pixels that should be used. The delta determins if the pixels
     ///               sourrounding should be included in the comparison.
-    init(maxDelta: Double, maxDifference: Double, maxOffset: Int) {
+    public init(maxDelta: Double, maxDifference: Double, maxOffset: Int, renderComposition: Bool = false) {
         self.maxDelta = maxDelta
         self.maxDifference = maxDifference
         self.maxOffset = maxOffset
+        self.renderComposition = renderComposition
     }
 }
 
